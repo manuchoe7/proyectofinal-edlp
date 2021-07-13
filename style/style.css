@@ -1,0 +1,45 @@
+body{
+    font-family: 'Montserrat', sans-serif!important;
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+.barra{
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.logo{
+    width: 25rem;
+    /* display: flex;
+    justify-content: center; */
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: none!important;
+}
+
+a:hover{
+    background-color: lightcoral;
+    border-radius: 1em;
+}
+
+hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+  }
+
+  hr.divider-light {
+    background-color: #fff;
+  }
+
+  .page-section {
+    padding: 5rem 0;
+  }
