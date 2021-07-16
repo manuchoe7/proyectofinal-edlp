@@ -1,18 +1,24 @@
-body{
-    font-family: 'Montserrat', sans-serif!important;
-    background: #ECE9E6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    background: #ECE9E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-.barra{
-    background: #ED213A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.barra {
+    background: #ED213A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.logo{
+.logo {
     width: 25rem;
     /* display: flex;
     justify-content: center; */
@@ -20,10 +26,10 @@ body{
 
 a {
     color: #0d6efd;
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
-a:hover{
+a:hover {
     background-color: lightcoral;
     border-radius: 1em;
 }
@@ -34,12 +40,49 @@ hr.divider {
     margin: 1.5rem auto;
     background-color: #f4623a;
     opacity: 1;
-  }
+}
 
-  hr.divider-light {
+hr.divider-light {
     background-color: #fff;
-  }
+}
 
-  .page-section {
+.page-section {
     padding: 5rem 0;
-  }
+}
+
+.ir-arriba {
+    display: none;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    background: #E67E73;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+.wsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 90px;
+    right: 20px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+fa-whatsapp {
+    text-decoration: none;
+    background: #fff;
+    color: #0df053;
+}
