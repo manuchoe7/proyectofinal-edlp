@@ -10,11 +10,11 @@ body {
 }
 
 .barra {
-    background: #ED213A;
+    background: #C23627;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+    background: -webkit-linear-gradient(to right, #C23627, #C23627);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93291E, #ED213A);
+    background: linear-gradient(to right, #ED213A, #C23627);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
